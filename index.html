@@ -160,13 +160,29 @@
         <div style="font-size: 18px; margin: 10px 0;">Cafeteria</div>
         <div style="font-size: 15px; color: #444; margin-bottom: 15px;">08-Jan-2026-Today-Ground Floor</div>
         
-        <div class="qr-banner">
-            <div style="display: flex; gap: 10px; font-size: 14px; line-height: 1.4;">
-                <span>🔳</span> Do you want to generate a reusable permanent QR code?
-            </div>
-            <button style="background: white; border: 1px solid #d1d5db; padding: 10px; border-radius: 6px; text-align: left;">Show my reusable QR code</button>
-            <button class="qr-btn-blue">Regenerate my reusable QR code</button>
-        </div>
+<div class="qr-banner" style="border: 1px solid #e5e7eb; padding: 15px; border-radius: 8px; display: flex; flex-direction: column; gap: 10px;">
+    <div style="display: flex; gap: 10px; font-size: 14px; line-height: 1.4;">
+        <span>⛶</span> Do you want to generate a reusable permanent QR code?
+    </div>
+    
+    <button style="background: white; border: 1px solid #d1d5db; padding: 10px; border-radius: 6px; text-align: left; font-size: 16px; cursor: pointer;">
+        Show my reusable QR code
+    </button>
+    
+    <button class="qr-btn-blue">Regenerate my reusable QR code</button>
+</div>
+
+<style>
+    .qr-btn-blue {
+        background-color: #2563eb;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 6px;
+        cursor: pointer;
+        text-align: center;
+    }
+</style>
 
         <div class="meal-card">
             <span class="meal-time">Breakfast 07:30 AM - 09:30 AM</span>
